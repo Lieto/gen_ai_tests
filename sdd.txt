@@ -1,0 +1,150 @@
+# Software Design Document: HAM Radio License Practice Test Application
+
+## 1. Overview
+
+This document outlines the design for a HAM Radio License Practice Test application. The app will allow users to simulate the real exam experience by randomly drawing 35 questions from an official question pool, presenting possible answers for each, tracking selections, and grading the test at the end with a percentage score.
+
+## 2. Goals
+
+- Enable users to practice for the HAM radio license exam.
+- Randomly select 35 questions per test session from a larger pool.
+- Show multiple-choice options for each question.
+- Allow the user to select their answer for each question.
+- Grade the test upon completion and show a percentage score.
+- Optionally, display correct/incorrect answers and explanations.
+
+## 3. Functional Requirements
+
+- **Question Pool Management**
+  - Load and store a large pool of official HAM exam questions and answers.
+  - Each question includes text, multiple-choice options, and a correct answer.
+
+- **Test Generation**
+  - Randomly select 35 unique questions for each practice test.
+  - Ensure no duplicate questions in a single test session.
+
+- **Question Presentation**
+  - Display one question at a time or paginate.
+  - Show all possible answers for each question.
+  - Allow the user to select one answer per question.
+
+- **Test Submission and Grading**
+  - Track the user's selected answers.
+  - Grade the test by comparing selections to correct answers.
+  - Calculate and display percentage score.
+
+- **Feedback (Optional)**
+  - Show which questions were answered correctly/incorrectly.
+  - Optionally display correct answers and explanations after grading.
+
+## 4. Non-Functional Requirements
+
+- **Performance:** Must generate tests and grade efficiently, even with large pools.
+- **Usability:** Simple, intuitive interface for selecting answers and reviewing results.
+- **Extensibility:** Easy to update question pool or add question categories.
+- **Accessibility:** Should be navigable via keyboard and screen reader (if web-based).
+- **Persistence (Optional):** Save test results/history for user review.
+
+## 5. System Architecture
+
+### 5.1. High-Level Structure
+
+- **Frontend (UI):**
+  - Displays questions and answer choices.
+  - Tracks user's current test and selections.
+  - Shows results after grading.
+
+- **Backend (optional for web or mobile app):**
+  - Stores question pool data.
+  - Handles test generation and grading logic.
+  - Manages user data and test history.
+
+- **Data Model:**
+  - `Question`: id, text, choices[], correctAnswer, explanation (optional)
+  - `TestSession`: id, questionIds[], userAnswers[], score, timestamp
+
+### 5.2. Data Flow
+
+1. **Load Question Pool:** Fetch from local file, database, or remote API.
+2. **Generate Test:** Randomly select 35 questions.
+3. **User Interaction:** User selects answers, navigates questions.
+4. **Submission:** User completes test and submits for grading.
+5. **Grading:** Compare answers, calculate score.
+6. **Results:** Display score and feedback.
+
+## 6. Detailed Component Design
+
+### 6.1. Question Pool Loader
+
+- Sources: JSON, CSV, database, or API.
+- Validates structure (no missing fields, unique IDs).
+
+### 6.2. Test Generator
+
+- Uses a secure random algorithm to select 35 unique questions.
+- Returns test session object with selected questions.
+
+### 6.3. UI Components
+
+- **Question View:** Shows question text and choices.
+- **Answer Selector:** Radio buttons or clickable options.
+- **Navigation:** Next/previous buttons or question list.
+- **Review/Submit:** "Submit" button triggers grading.
+
+### 6.4. Grading Engine
+
+- Compares `userAnswers[]` vs. `correctAnswer` for each question.
+- Calculates percentage: `score = (correctAnswers / 35) * 100`.
+- Optionally, builds feedback per question.
+
+### 6.5. Feedback Presenter
+
+- Shows overall score.
+- Optionally lists missed questions, correct answers, and explanations.
+
+## 7. Potential Pitfalls & Mitigation Strategies
+
+- **Duplicate Questions:** Ensure unique selection via set or shuffle algorithm.
+- **Question Pool Integrity:** Validate and sanitize input data to avoid missing or malformed questions.
+- **Randomness Bias:** Use cryptographically secure randomization for fairness.
+- **User Selection Tracking:** Prevent multiple answers per question and accidental overwrites.
+- **Grading Accuracy:** Double-check answer comparison logic.
+- **Scalability:** Optimize for larger pools; avoid loading all questions into memory if unnecessary.
+- **User Experience:** Prevent accidental submission; allow review before grading.
+- **Accessibility:** Make all interactive elements accessible and navigable.
+- **Security (Web/Mobile):** Protect user data, especially if storing history or personal info.
+
+## 8. Example Data Structures
+
+```typescript
+// Question definition
+type Question = {
+  id: string;
+  text: string;
+  choices: string[];
+  correctAnswer: number; // index of correct choice
+  explanation?: string;
+}
+
+// Test session
+type TestSession = {
+  id: string;
+  questions: Question[];
+  userAnswers: number[]; // index per question, -1 = unanswered
+  score?: number;
+  timestamp: Date;
+}
+```
+
+## 9. Future Extensions
+
+- Add difficulty levels or categories.
+- Track user progress over time.
+- Add explanations per question.
+- Support for multiple languages.
+- Mobile app version.
+- Analytics on commonly missed questions.
+
+## 10. Conclusion
+
+This design provides a robust foundation for a HAM radio practice test app, focusing on fairness, usability, and extensibility. The outlined structure and attention to potential pitfalls will help guide successful implementation.
