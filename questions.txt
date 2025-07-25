@@ -1,1 +1,4 @@
 Questions: Act as a software architect skilled in software design and development. I would like to create a TODO application where I can add a list of tasks to complete, and then mark them as completed. What tech stack should I use for a web-based version of this software?
+
+Act as a software design expert. Help me break down a problem. I want to create practice tests to study for the HAM radio license. I will take a pool of questions from the test. I want to draw 35 questions randomly from that pool. I want to show the possible answers and select an answer. At the end of the test, I would like to grade it with a percentage. Include details about the structure and outline some potential pitfalls. Craft the output in the form of a software design document
+
