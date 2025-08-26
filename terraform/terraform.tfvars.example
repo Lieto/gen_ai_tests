@@ -1,0 +1,30 @@
+# Example Terraform Variables File
+# Copy this file to terraform.tfvars and customize the values
+
+# AWS Configuration
+aws_region = "eu-north-1"
+
+# Project Configuration
+project_name = "ham-radio-practice"
+environment  = "dev"
+
+# Network Configuration
+vpc_cidr                = "10.0.0.0/16"
+public_subnet_cidrs     = ["10.0.1.0/24", "10.0.2.0/24"]
+private_subnet_cidrs    = ["10.0.10.0/24", "10.0.20.0/24"]
+database_subnet_cidrs   = ["10.0.30.0/24", "10.0.40.0/24"]
+
+# Backend Configuration
+backend_cpu    = 256
+backend_memory = 512
+
+# Database Configuration
+db_instance_class = "db.t3.medium"
+
+# Security Configuration
+# WARNING: Change this to your specific IP ranges for production!
+allowed_cidr_blocks = ["0.0.0.0/0"]
+
+# Domain Configuration (optional)
+# Uncomment and set if you have a custom domain
+# domain_name = "example.com"
