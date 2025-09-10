@@ -1,0 +1,219 @@
+Curriculum Vitae
+
+Name:	Mr. Vesa Kuoppala
+Date of Birth:	2 June 1971
+Address:	Espoonlahdenkatu 10 as 67 , FIN-02320 Espoo, Finland
+Mobile Phone:	+358 50 338 5811
+E-mail:	vkuoppala@hotmail.com
+LinkedIn Profile:	www.linkedin.com/in/vesa-kuoppala-70a86a11
+Civil Status:	Single
+Driver License:	AB-license
+Military Rank:	Sergeant
+
+
+Future Plans
+Aim for the technical lead positions in software development, machine learning and deep learning fields. To deepen my knowledge in signal processing, machine learning and software development and architecture planning.
+
+
+Professional Experience
+Experience in teamwork in various software projects but also experience in independent work. Special skills in developing software for embedded linux systems with c- and c++- languages, creating end-to-end IoT-solutions and using machine learning/deep learning technologies in commercial products. Experience in software definition, requirement, specification and testing tasks and tools for project management.
+
+
+Professional interests
+Transferring state-of-the-art machine learning/deep learning technologies for practical use cases, transferring prototypes / POV (proof of value) concepts to scalable solutions in cloud environments. Microarchitecture mindset in creating architectural plans. Using generative AI tools to optimize sw development life cycle.
+
+
+Education
+1990	Matriculation examination	Ähtärin Lukio, Ähtäri, Finland
+
+
+
+1990-2014	Master of Science	Tampere University of Technology, Finland Major Subject: Digital Signal Processing
+Minor Subject: Information Technology and Electronics
+
+
+
+
+Other Studies and Courses
+2007	Symbian/C++ mobile programming education	TAKK, Finland See my LinkedIn profile for other courses and certificates
+
+
+Work Experience
+
+April 2024 -
+Solita	Senior AI/Machine Learning Engineer
+Consultant tasks in customer projects including computer vision and machine learning model deployment and Mlops infrastructure design and implementation. For instance, training and deploying semantic segmentation model for real time environment on edge device.
+
+
+June 2022 - 2024
+Private Entrepreneur	Senior AI/Machine Learning Engineer
+Consultant tasks in customer project including computer vision and machine learning model deployment and Mlops infrastructure design and implementation
+
+October 2020 - May 2022
+SILO AI	Senior AI Engineer
+
+Consultant tasks in customer project including full stack software development and machine vision solution implementations.
+
+November 2019 - September 2020
+
+Advian	Machine Learning Specialist
+I and part of the team from CGI moved to continue our journey with machine learning and video analytics in more entrepreneurial environment. Keywords in current projects: Object detection, face and emotion detection, SLAM, stereo image calibration and recording.
+
+December 2017 - November 2019
+
+CGI Next	Software Developer
+
+Due to corporate acquisition of Affecto by CGI, my and team's work continues in this organization.
+
+Published cases: https://www.cgi.fi/fi/uutiset/rakennusalan-ikuisuusongelmaan-puututaan-valtran- tyomaalla-suojakyparan-kayttamista-seurataan-videonanalytiikan-avulla-reaaliaikaisesti
+
+May 2016 - December 2017
+
+Affecto	Software Developer
+
+Designing video analytic pipelines for customer cases. Algorithm integration and device/hardware optimization for various cost/quality cases. DNN (Deep Neural Network) based machine learning implementations for video analytic and industrial quality assurance projects.
+
+Technologies:
+
+Linux, Microarchitecture design, Pylon SDK, Python, C/C++, Qt Framework, ZMQ, AWS Cloud Computing (AWS IoT, DynamoDB, S3, EC2), Cassandra, OpenCV, Dlib, Neural Network Frameworks (Keras, TensorFlow, Caffe, PyTorch), Machine Learning Frameworks (scikit-learn), Digital Signal/Image Processing Algorithms implemented with Python/OpenCV.
+
+Public use case: Ruisrock 2017:
+
+Our solution to estimate people's gender, age categories and mood won an award in GrandOne this year:
+http://www.grandone.fi/tyot/voittajat/kategoria/paras-datan-kaeyttoe
+
+
+
+December 2015 - April 2016
+
+Parkkisähkö Oy	Software Developer
+
+Creating software infrastructure for smart charging of electric cars
+
+Technologies:
+
+IoT, Intel Edison, Python, Django Python Web Framework, REST API, CI (Continuous Integration) with Jenkins, Github and Docker, Virtual Private Cloud resource environment with AWS VPC, auto scalable backend system with AWS Auto Scaling, MySQL Server with AWS RDS
+
+http://www.parkkisahko.fi/en/
+
+
+
+June 2014 - March 2015
+
+Intopalo	Software Developer
+
+Software development tasks in 3d modelling, computer vision and machine learning areas. Participation in designing self-organizing organization/system model. For instance, Holacracy is one implementation of self- organizing system. Prototype/PoV design for predicting epileptic seizures of patients with video analytics. This project continues as spin-off of Intopalo: http://www.neuroeventlabs.com/
+
+Technologies:
+
+Linux, Windows, Python, C#, OpenCV, scikit-learn, Video streaming over Gige, LAMP, ffmpeg, AWS S3, CEP (Complex Event Processing), Bluetooth LE, Pylon SDK, MS Kinect 2.0 video, MS Kinect 2.0 audio
+
+July 2011 - December 2015
+
+Koodaripalvelut Oy	Recruitment Assistant
+
+Designing job announcements for employer's website, preliminary qualification of applicants
+
+
+November 2009 - April 2010
+
+Tampere University of Technology	Research Assistant
+
+Research to use PSO (Particle Swarm Optimization) in video encoding and decoding processes.
+
+Technologies:
+
+Linux, ffmpeg, Matlab, c++
+
+August 2005 - October 2005
+
+DA-Design Oy	Software Developer
+
+Linux server and application administration
+
+
+June 2004 - February 2005
+
+Nomovok Oy	Software Developer
+
+The architecture design, implementation and documentation of Linux graphic and game applications for Nokia Internet Tablet device. Implementation done with objective-c and UI code with GTK SDK.
+
+August 2003 - December 2003
+
+Design Combus	Software Developer
+
+Implementation of VLAN controller application modules for embedded linux-system for network router.
+
+
+September 2002 - January 2003
+
+Nokia Mobile Phones	Software Developer
+
+Implementation tasks for IP-protocol modules for mobile phone software with objective-c language.
+
+May 2001 - December 2001
+
+TietoEnator Oy	Software Developer
+
+Compression and transfer of video over Bluetooth connection. Implementation in NT and linux environments with c and c++ -languages.
+
+August 2000 - December 2000
+
+Tellabs Oy	Software Developer
+
+Implementation of software modules for embedded system for network card in PowerPC and NT environments with c- language.
+
+January 1999 - June 2000
+
+Elektrobit Oy	DSP Designer
+
+Implementation and testing of audio signal processing algorithms with c and	TI DSP assembler language in unix- and NT-environments.
+
+November 1997 - April 1998
+
+Nokia Mobile Phones	DSP Trainee Assembler programming for TI DSP-card. June 1994 - October 1997
+Tampere University of Technology	Research Assistant
+
+Design and implementation of speech and image processing algorithms with matlab and c-language in unix environment. Participation in SpeechDat-project workshop events. Specification of SpeechDat-project in Finland. Most of work as part-time.
+
+
+
+Language Skills
+
+Finnish	native speaker
+English	fluent
+Swedish	basic knowledge
+German	basic knowledge
+
+
+IT-skills
+
+Operating Systems:
+
+Linux, Unix variants, Windows
+
+Cloud Environments:
+
+AWS, MS Azure, GCP
+
+Good working knowledge of PC-environment and PC applications:
+
+Microsoft Word , Excel, PowerPoint, OpenOffice
+
+Version Management Systems:
+ClearCase, Continuus, Subversion, Git, GitHub
+
+Software Development Tools, IDEs:
+Visual Studio, Eclipse, GNU toolchain, JetBrains IDEs, Qt Framework, Visual Studio Code, Git Copilot, GPT-4, Claude
+
+UML:
+
+Umbrella, ArgoUML, LucidChart
+
+
+Positions of Responsibility
+Chairman of Tampereen Teekkareiden Eteläpohjalainen Osakunta(TTEPO) 1993-1994
+
+Interests
+sports	(floor ball aka sähly, hiking) movies
+literature	(both technical and fiction)
