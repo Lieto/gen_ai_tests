@@ -1,0 +1,15 @@
+I am writing to express my strong interest in senior machine learning engineer position in your company. With extensive hands-on experience in embedded systems, cloud-based machine learning solutions, and a passion for transferring cutting-edge research into scalable, real-world applications, I am confident in my ability to contribute significantly to your team.
+
+Throughout my career, I have demonstrated a robust track record in both independent and team-based projects across renowned Finnish technology companies and consultancies. My expertise includes designing and deploying end-to-end machine learning and computer vision solutions, particularly for embedded Linux systems using C/C++, Python, and various neural network frameworks such as TensorFlow, Keras, and PyTorch. I have also gained deep experience in cloud infrastructure, including AWS, MS Azure, and GCP, as well as DevOps practices with tools like Docker, Jenkins, and CI/CD pipelines.
+
+My recent roles at Solita, SILO AI, and as a private entrepreneur have allowed me to lead customer projects from concept through to deployment, focusing on MLOps infrastructure, semantic segmentation, and video analytics. Notably, my work has involved transferring state-of-the-art technologies into production environments, ensuring scalability, efficiency, and value for end users.
+
+I am eager to bring my skills in software architecture, machine learning, and project leadership to further develop innovative solutions that have a meaningful impact. I look forward to the opportunity to discuss how my experience and vision align with the goals of your team.
+
+Thank you for your consideration.
+
+Sincerely,
+
+Vesa Kuoppala
+
+[LinkedIn: www.linkedin.com/in/vesa-kuoppala-70a86a11]
